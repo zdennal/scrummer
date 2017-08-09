@@ -1,5 +1,5 @@
 {
-	"name": "ScrummerTheodo",
+	"name": "SCRUMMER_NAME",
 	"version": "SCRUMMER_VERSION",
 	"description": "Adds story points, post-estimation points and card ID to Trello",
 	"content_scripts": [
@@ -20,7 +20,7 @@
 			"128": "img/icon128.png",
 			"1024": "img/icon1024.png"
     },
-    "default_title": "ScrummerTheodo",
+    "default_title": "SCRUMMER_NAME",
     "default_popup": "popup.html"
   }
 }

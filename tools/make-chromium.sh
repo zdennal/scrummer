@@ -18,6 +18,7 @@ cp    ./platform/chromium/manifest.json $DES/
 
 # Replace version
 sed -i.bak 's/SCRUMMER_VERSION/'$SCRUMMER_VERSION'/g' $DES/manifest.json
+sed -i.bak 's/SCRUMMER_NAME/'$SCRUMMER_NAME'/g' $DES/manifest.json
 rm $DES/manifest.json.bak
 
 if [ "$1" = all ]; then

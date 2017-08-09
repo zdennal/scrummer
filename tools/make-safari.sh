@@ -15,6 +15,7 @@ cp    platform/safari/Info.plist        $DES/
 
 # Replace version
 sed -i.bak 's/SCRUMMER_VERSION/'$SCRUMMER_VERSION'/g' $DES/Info.plist
+sed -i.bak 's/SCRUMMER_NAME/'$SCRUMMER_NAME'/g' $DES/Info.plist
 rm $DES/Info.plist.bak
 
 if [ "$1" = all ]; then

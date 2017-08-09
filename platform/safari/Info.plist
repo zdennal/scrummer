@@ -5,9 +5,9 @@
 	<key>Builder Version</key>
 	<string>10600.8.9</string>
 	<key>CFBundleDisplayName</key>
-	<string>ScrummerTheodo</string>
+	<string>SCRUMMER_NAME</string>
 	<key>CFBundleIdentifier</key>
-	<string>nl.rickpastoor.scrummer</string>
+	<string>cz.direct.scrummer</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
