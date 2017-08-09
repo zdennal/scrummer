@@ -151,8 +151,8 @@ const calculatePointsForCard = (card) => {
     card.getAttribute('data-calculated-post-points') == calculatedPostPoints
   ) {
     return {
-      story: calculatedPoints || 0,
-      post: calculatedPostPoints || 0
+      story: sanitizePoints(calculatedPoints),
+      post: sanitizePoints(calculatedPostPoints)
     }
   }
 
